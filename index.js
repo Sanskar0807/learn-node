@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
     res.end('This is the about page.');
   } else if (req.url === '/contact') {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
-    res.end('You can contact us at contact@example.com');
+    res.end('This is the contact page');
   } else {
     res.writeHead(404, { 'Content-Type': 'text/plain' });
     res.end('404 Not Found');
