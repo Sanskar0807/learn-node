@@ -8,7 +8,9 @@ const app = express();
 const port = process.env.PORT || 3000;
 const dbURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/express-crud-api';
 
-// ... (mongoose connection code)
+
+
+
 
 // Middleware to parse JSON data
 app.use(express.json());
